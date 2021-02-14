@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<HTML>
+
+    <head>
+        <meta charset="UTF-8">
+
+        <link rel= "stylesheet" type="text/css" href="../css/calc.css">
+        <script src="../js/calc.js"></script>
+
+    </head>
+
+    <body>
+        
+        <!--
+        <div class="grid-container">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">7</div>
+            <div class="grid-item">8</div>
+            <div class="grid-item">9</div>
+        </div>
+        -->
+
+    <div class="content">
+
+
+
+        <div class="display"> 
+            <input id="display" type="text" style="width:240px; height: 30px; text-align: center"/>
+        </div>
+
+
+        <div class="result"> 
+            <input id="result" type="text" style="width:240px; height: 30px; text-align: center;"/>
+        </div>
+
+
+        <div class="first-row"> 
+            <button id="r1-1" style="width:120px;" onClick="del()">C</button>
+            <button id="r1-3" style="width:120px;" onClick="reset()">AC</button>
+        </div>
+        
+   
+
+        <div class="second-row">
+            <button id="r2-1" onClick="output(1)">1</button>
+            <button id="r2-2" onClick="output(2)">2</button>
+            <button id="r2-3" onClick="output(3)">3</button>
+            <button id="r2-4" onClick="output('+')">+</button>
+        </div>
+        
+   
+
+        <div class="third-row">
+            <button id="r3-1" onClick="output(4)">4</button>
+            <button id="r3-2" onClick="output(5)">5</button>
+            <button id="r3-3" onClick="output(6)">6</button>
+            <button id="r3-4" onClick="output('-')">-</button>
+        </div>
+        
+   
+
+        <div class="fourth-row">
+            <button id="r4-1" onClick="output(7)">7</button>
+            <button id="r4-2" onClick="output(8)">8</button>
+            <button id="r4-3" onClick="output(9)">9</button>
+            <button id="r4-4" onClick="output('*')">x</button>
+        </div>
+        
+    
+
+        <div class="fifth-row">
+            <button id="r5-1" style="width:120px;" onClick="output(0)">0</button>
+            <button id="r5-3" onClick="calc()">=</button>
+            <button id="r5-4" onClick="output('/')">/</button>
+        </div>
+
+
+    </div>
+
+    </body>
+</HTML>
