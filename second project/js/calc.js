@@ -17,6 +17,8 @@ function output(num) {
         var display = document.getElementById("display");
         display.value = display.value.substring(0, display.value.length-1);
         
+        var displayResult = document.getElementById("result");
+        displayResult.value="";
     }
 
     function reset() {
